@@ -1,0 +1,41 @@
+puts " Welcome, Mortal! I am the amazing Chemistry Guru. I can devine the element that you are thinking!"
+puts''
+
+puts "Think of an element on the periodic table"
+puts "Is your element a metal?"
+puts "--- Type 'Y' if yes"
+puts "--- Type 'N' if no"
+choice = gets.chomp.downcase
+case choice
+when 'y'
+    puts " Ah Ha! Is your element larger than potassium? " 
+  	puts "--- Type 'Y' if yes"
+		puts "--- Type 'N' if no"
+		choice = gets.chomp.downcase
+		case choice
+      when 'y'
+			puts "Excellent! Getting Closer!"
+      puts "Does your element like to form a +1 charge?"
+    end
+      puts "--- Type 'Y' if yes"
+			puts "--- Type 'N' if no"
+			choice = gets.chomp.downcase
+			case choice
+      	when 'y'
+        puts "Nearly there!"
+        puts "Is the electronegativity of your element larger than francium?"
+    		end 
+  			 puts "--- Type 'Y' if yes"
+				puts "--- Type 'N' if no"
+				choice = gets.chomp.downcase
+				case choice
+      	when 'n'
+          puts "Your element is Francium! "
+        end
+
+  
+	
+when 'n'
+    puts " ah ha!  "
+    
+end
